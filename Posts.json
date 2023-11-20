@@ -15,11 +15,11 @@
 						"exec": [
 							"pm.test(\"Check author\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData[0].author).to.eql(\"typicode\");\r",
+							"    pm.expect(jsonData[0].author).to.eql(\"Tomek\");\r",
 							"});\r",
 							"pm.test(\"Check title\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData[0].title).to.eql(\"json-server\");\r",
+							"    pm.expect(jsonData[0].title).to.eql(\"Zaktualizowany tytul\");\r",
 							"});"
 						],
 						"type": "text/javascript"
@@ -54,18 +54,18 @@
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
 							"pm.test(\"Check title\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"json-server\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"Zaktualizowany tytul\");\r",
 							"});\r",
 							"pm.test(\"Check author\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"typicode\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"Tomek\");\r",
 							"});\r",
 							"pm.test(\"Check author 2\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData.author).to.eql(\"typicode\");\r",
+							"    pm.expect(jsonData.author).to.eql(\"Tomek\");\r",
 							"});\r",
 							"pm.test(\"Check title 2\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData.title).to.eql(\"json-server\");\r",
+							"    pm.expect(jsonData.title).to.eql(\"Zaktualizowany tytul\");\r",
 							"});\r",
 							"pm.test(\"Check id\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
@@ -113,7 +113,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/posts?title=json-server&author=typicode",
+					"raw": "http://localhost:3000/posts?title=Zaktualizowany tytul&author=Tomek",
 					"protocol": "http",
 					"host": [
 						"localhost"
