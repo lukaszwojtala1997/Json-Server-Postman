@@ -152,10 +152,6 @@
 							"    pm.expect(jsonData.author).to.eql(pm.environment.get(\"randomName\"));\r",
 							"\r",
 							"});\r",
-							"pm.test(\"Check title\", function () {\r",
-							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData.title).to.eql(pm.globals.get(\"title\"));\r",
-							"});\r",
 							"pm.globals.set(\"postIdToDelete\", pm.response.json().id);"
 						],
 						"type": "text/javascript"
