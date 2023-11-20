@@ -33,7 +33,7 @@
 					"raw": "http://localhost:3000/posts",
 					"protocol": "http",
 					"host": [
-						"{{host}}"
+						"localhost"
 					],
 					"port": "3000",
 					"path": [
@@ -83,7 +83,7 @@
 					"raw": "http://localhost:3000/posts/1",
 					"protocol": "http",
 					"host": [
-						"{{host}}"
+						"localhost"
 					],
 					"port": "3000",
 					"path": [
@@ -116,7 +116,7 @@
 					"raw": "http://localhost:3000/posts?title=json-server&author=typicode",
 					"protocol": "http",
 					"host": [
-						"{{host}}"
+						"localhost"
 					],
 					"port": "3000",
 					"path": [
@@ -187,7 +187,7 @@
 					"raw": "http://localhost:3000/posts",
 					"protocol": "http",
 					"host": [
-						"{{host}}"
+						"localhost"
 					],
 					"port": "3000",
 					"path": [
@@ -228,7 +228,7 @@
 					"raw": "http://localhost:3000/posts/5",
 					"protocol": "http",
 					"host": [
-						"{{host}}"
+						"localhost"
 					],
 					"port": "3000",
 					"path": [
