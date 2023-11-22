@@ -177,48 +177,6 @@
 			"response": []
 		},
 		{
-			"name": "Updating a part of comment",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
-							"});"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"method": "PATCH",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "    {\r\n        \"body\": \"some-content3\"\r\n    }",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "http://localhost:3000/comments/2",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"comments",
-						"3"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "Updating comment",
 			"event": [
 				{
