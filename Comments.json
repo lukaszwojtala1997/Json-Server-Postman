@@ -196,7 +196,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "    {\r\n        \"body\": \"some comment2\",\r\n        \"postId\": 2\r\n    }",
+					"raw": "    {\r\n        \"body\": \"some comment2\",\r\n        \"postId\": 3\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -212,7 +212,7 @@
 					"port": "3000",
 					"path": [
 						"comments",
-						"2"
+						"3"
 					]
 				}
 			},
